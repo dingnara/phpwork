@@ -16,6 +16,20 @@ $op =$_POST['op'];
         h1{
             text-align: center;
             font-size: 120px; 
+            color: #8B0000; 
+        }
+        p{
+            text-align: center;
+            font-size: 30px; 
+        }
+        div{
+            position: absolute;
+            top:50%;
+            left:50%;
+ <style>
+        h1{
+            text-align: center;
+            font-size: 120px; 
             color: #8B0000;
             
         }
@@ -28,6 +42,21 @@ $op =$_POST['op'];
             top:50%;
             left:50%;
             transform: translate(-50%, -50%);
+            width: 400px;
+            height: 400px;
+            background: #00FFFF;
+            border-radius: 100px;
+
+        }
+        h4{
+            text-align: center;
+            font-size: 40px; 
+        }
+        body{
+            background: linear-gradient(150deg, #999900, #99FFFF);
+            height: 50vh;
+        }
+ 
             width: 400px;
             height: 400px;
             background: #00FFFF;
