@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Photo</title>
+    <style>
+        .sub{
+            height: 40px;
+            width: 60%; 
+            padding: 5px ;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 2px solid rgb(3, 222, 230);
+            background-color: darkgoldenrod;
+        }
+            
+        body { 
+            width: 30%; 
+            margin: 50px auto 0px; 
+            color: white; 
+            background: #751360d5; 
+            text-align: center; 
+            border: 3px solid #03b8eb; 
+            border-radius: 10px 10px 10px 10px; 
+            padding: 50px;
+        }
+        .file{
+            width: 89%;
+            padding: 5px 10px;
+            font-size: 20px;
+
+        }
+        
+        
+    </style>
+</head>
+<body class="body">
+    <h2>Upload Photo</h2>
+    <form action="process_upload.php" method="post" enctype="multipart/form-data">
+    <div class="file">
+        <input type="file" name="photo"><br><br>
+    </div>
+        <input class="sub" type="submit" type="submit" value="Upload Photo">
+    </form>
+</body>
+</html>
